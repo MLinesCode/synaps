@@ -1,0 +1,144 @@
+header {
+  background-color: #1e212c;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 0 3% 0 2%;
+  color: #f7f0f7;
+}
+
+h2,
+h3 {
+  margin: 1% 2% 1% 2%;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0%;
+  padding: 0%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #00014e;
+  margin-left: 15px;
+  /* border-bottom: 2px solid #814bff; */
+  height: 0;
+}
+
+.destacado {
+  font-size: 1.2em;
+}
+.themes {
+  font-size: 1em;
+}
+
+.first {
+  border: 0;
+  border-top: 3.2px solid #00014e;
+  margin-left: 15px;
+  height: 0;
+  margin-top: 3px;
+}
+
+.header {
+  padding: 1.5%;
+}
+
+.hero{
+  /* padding: 1.5%; */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 1.3% 0 0 0;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0.5% 0 0.5% 0;
+  border: 2px solid rgb(0, 26, 255);
+}
+.circle-img {
+  height: 100%;
+  position: relative;
+}
+.relevant-container {
+  height: 100%;
+  width: 100%;
+}
+.container-img {
+  height: 100%;
+  width: 100%;
+}
+
+.relevant-post {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.block {
+  width: 175px;
+  height: 135px;
+  border-radius: 5%;
+  overflow: hidden;
+  margin: 2% 0 2% 0;
+  /* border: 1px solid red; */
+}
+.block-img {
+  height: 100%;
+  width: 100%;
+}
+.image-hero {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.post {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 4% 1% 4% 1%;
+}
+.post-block {
+  width: 115px;
+  height: 75px;
+  border-radius: 8%;
+  overflow: hidden;
+  margin: 0;
+  /* border: 1px solid red; */
+  margin-left: 2%;
+}
+.post-img {
+  height: 100%;
+  width: 100%;
+}
+.post-media {
+  height: 100%;
+  width: 100%;
+}
+.post-resume {
+  font-size: 0.99em;
+  margin:1% 0 1% 2.5%;
+}
+.post-description {
+  font-size: 0.75em;
+  margin: 0 0 0 1%;
+}
+
+.footer {
+  color: black;
+  background-color: #0b0e1a;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  color: #f7f0f7;
+}
