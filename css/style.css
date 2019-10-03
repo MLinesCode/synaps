@@ -1,5 +1,12 @@
-header {
-  background-color: #00deee;
+header {  
+  background: rgba(12,130,227,1);
+  background: -moz-linear-gradient(left, rgba(12,130,227,1) 0%, rgba(91,216,247,1) 76%, rgba(91,216,247,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(12,130,227,1)), color-stop(76%, rgba(91,216,247,1)), color-stop(100%, rgba(91,216,247,1)));
+  background: -webkit-linear-gradient(left, rgba(12,130,227,1) 0%, rgba(91,216,247,1) 76%, rgba(91,216,247,1) 100%);
+  background: -o-linear-gradient(left, rgba(12,130,227,1) 0%, rgba(91,216,247,1) 76%, rgba(91,216,247,1) 100%);
+  background: -ms-linear-gradient(left, rgba(12,130,227,1) 0%, rgba(91,216,247,1) 76%, rgba(91,216,247,1) 100%);
+  background: linear-gradient(to right, rgba(12,130,227,1) 0%, rgba(91,216,247,1) 76%, rgba(91,216,247,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c82e3', endColorstr='#5bd8f7', GradientType=1 );  
   margin: 0;
   padding: 0;
   height: 60px;
@@ -25,7 +32,7 @@ body {
 
 hr {
   border: 0;
-  border-top: 1px solid #00deee;
+  border-top: 1px solid #5bd8f7;
   margin-left: 15px;
   /* border-bottom: 2px solid #814bff; */
   height: 0;
@@ -40,7 +47,7 @@ hr {
 
 .first {
   border: 0;
-  border-top: 3.2px solid #00deee;
+  border-top: 3.2px solid #5bd8f7;
   margin-left: 15px;
   height: 0;
   margin-top: 3px;
@@ -88,7 +95,7 @@ hr {
 .block {
   width: 175px;
   height: 135px;
-  border-radius: 5%;
+  border-radius: 2.6%;
   overflow: hidden;
   margin: 2% 0 2% 0;
   /* border: 1px solid red; */
@@ -136,6 +143,47 @@ hr {
   font-size: 0.75em;
   margin: 0 0 0 1%;
 }
+
+.post-inmersiveA {
+  width: 373px;
+  height: 160px;
+  margin: 0,
+  /* border: 1px solid red; */
+}
+.inmersive-media {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+.imersive-text {
+  margin: -19% 0 0 4%;
+  color: rgb(253, 253, 253);
+  -webkit-text-stroke: .5px rgb(228, 228, 228);
+  text-shadow: 2px 1px 1px #979797;
+}
+.inmersive-resume{
+  margin: 0;
+  font-size: 1.5em;
+  font-style: normal;
+}
+.inmersive-data {
+  margin: 3px;
+  font-size: .7em;
+}
+
+.box-text {
+  width: 60px;
+  height: 15px;
+  font-size: 1em;
+  color: white;
+  margin: -37.3% 45% 0 0;
+  padding: 6px;
+  background-color: rgb(11, 178, 255);
+  z-index: 100%;
+  position: relative;
+}
+
 
 .footer {
   color: black;
