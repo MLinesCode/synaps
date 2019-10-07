@@ -1,0 +1,22 @@
+header {
+  margin: 0;
+  padding: 0;
+  height: 220px;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0%;
+  padding: 0%;
+  color: #161616;
+}
+
+.tittle-container {
+  height: 100%;
+}
+.img-tittle {
+  height: inherit;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}

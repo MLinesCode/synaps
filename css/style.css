@@ -28,6 +28,7 @@ body {
   font-family: 'Comfortaa', cursive;
   margin: 0%;
   padding: 0%;
+  color: #161616;
 }
 
 hr {
@@ -40,11 +41,17 @@ hr {
 
 a {
   text-decoration: none;
-  color: rgb(247, 247, 247);
+  color: #161616;
 }
 
 a:visited {
-  color: none; /* evitar que cambien de color los link visitados */
+  color: inherit;
+}
+a:hover {
+  color: #02c2f1;
+}
+a:active {
+  color: rgb(19, 218, 218);
 }
 
 .destacado {
