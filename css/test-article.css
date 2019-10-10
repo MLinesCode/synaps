@@ -37,7 +37,7 @@ h1,h2 {
   height: inherit;
   width: inherit;
   /* position: relative; */
-  object-fit: cover;
+  /* object-fit: cover; */
   /* fixed image responsive */
 }
 
