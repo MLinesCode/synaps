@@ -1,7 +1,7 @@
 header {
-  margin: 0;
   padding: 0;
-  height: 220px;
+  height: 250px;
+  width: 375px;
 }
 
 body {
@@ -11,12 +11,86 @@ body {
   color: #161616;
 }
 
-.tittle-container {
-  height: 100%;
+h1,h2 {
+  margin: 0;
 }
-.img-tittle {
+
+.icon-navigation {
+  margin: -50% -18% 0 3%;
+  /* width: 40px; */
+  height: 26px;
+  background-size: 50px 50px;
+  z-index: 100;
+}
+.icon-back {
+  height: 100%;
+  z-index: 100;
+}
+
+.tittle-container {
+  height: 250px;
+  width: 427px;
+  margin: -14%;
+}
+.image-tittle {
   height: inherit;
+  width: inherit;
+  /* position: relative; */
+  object-fit: cover;
+  /* fixed image responsive */
+}
+
+.hero {
+  /* border: 1px solid red; */
+}
+.data{
+  font-size: .8em;
+  text-align: right;
+  margin: 1.5% 1% 1% 1%;
+}
+.tittle {
+  margin: 6.6% 2.4% 1% 1.7%;
+  font-size: 1.85em;
+  /* font-style: bold; */
+  text-align: left;
+}
+
+.resume {
+  margin: 0 2.4% 0 1.7%;
+}
+.introduction {
+  margin: inherit;
+  font-style: normal;
+}
+
+.article {
+  /* border: 1px solid red; */
+  margin: 2% 1.5% 2% 1.5%;
+}
+.first-letter {
+  font-size: 1em;
+}
+.post-media {
+  height: 245px;
+  margin: 0 -1.5% 0 -1.5%;
+}
+.post-img {
+  height: 100%;
   width: 100%;
   position: relative;
   object-fit: cover;
+}
+
+.text-post {
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #00bebe;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  color: #f7f0f7;
 }

@@ -177,7 +177,7 @@ a:active {
   margin: -19% 0 0 4%;
   color: rgb(253, 253, 253);
   -webkit-text-stroke: .5px rgb(228, 228, 228);
-  text-shadow: 2px 1px 1px #979797;
+  text-shadow: 2px 1px 1px #a8a8a8;
 }
 .inmersive-resume{
   margin: 0;
