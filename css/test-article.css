@@ -1,7 +1,5 @@
 header {
   margin: 0;
-  height: 220px;
-  width: 375px;
 }
 
 body {
@@ -62,7 +60,7 @@ h1,h2 {
 
 .article {
   /* border: 1px solid red; */
-  margin: 2% 1.5% 2% 1.5%;
+  margin: 2% 0 2% 0;
 }
 .first-letter {
   font-size: 1em;
@@ -80,6 +78,7 @@ h1,h2 {
 }
 
 .text-post {
+  margin: 0 1% 0 1%;
   font-size: 1em;
   font-style: normal;
   line-height: 1.5;
@@ -95,6 +94,10 @@ h1,h2 {
 
 @media screen and (max-width: 320px) {
 
+}
+
+@media screen and (max-width: 425px) {
+  
 }
 
 @media screem and (max-width: 480px) {
