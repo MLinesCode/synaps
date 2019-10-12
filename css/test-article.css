@@ -17,9 +17,9 @@ h1,h2 {
 }
 
 .icon-navigation {
-  margin: -50% -18% 0 3%;
+  margin: -63% -18% 0 3%;
   width: 35px;
-  height: 26px;
+  height: 33px;
   background-size: 50px 50px;
   z-index: 100;
 }
@@ -29,15 +29,14 @@ h1,h2 {
 }
 
 .tittle-container {
-  height: 250px;
-  width: 427px;
-  margin: -14%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 .image-tittle {
-  height: inherit;
-  width: inherit;
-  /* position: relative; */
-  /* object-fit: cover; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;    /* flecha back no funciona */
   /* fixed image responsive */
 }
 
@@ -47,10 +46,10 @@ h1,h2 {
 .data{
   font-size: .8em;
   text-align: right;
-  margin: 1.5% 1% 1% 1%;
+  margin: .5% 1% 1% 1%;
 }
 .tittle {
-  margin: 6.6% 2.4% 1% 1.7%;
+  margin: 6.4% 2.4% 1% 1.7%;
   font-size: 1.85em;
   /* font-style: bold; */
   text-align: left;
@@ -72,11 +71,12 @@ h1,h2 {
   font-size: 1em;
 }
 .post-media {
-  height: 245px;
+  height: 249.77px;
+  width: auto;
   margin: 0 -1.5% 0 -1.5%;
 }
 .post-img {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   position: relative;
   object-fit: cover;
