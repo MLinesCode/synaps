@@ -162,9 +162,9 @@ a:active {
 }
 
 .post-inmersiveA {
-  width: 373px;
-  height: 160px;
-  border: 1px solid red;
+  width: inherit;
+  height: 166px;
+  /* border: 1px solid red; */
 }
 .inmersive-media {
   height: 100%;
@@ -193,7 +193,7 @@ a:active {
   height: 15px;
   font-size: 1em;
   color: white;
-  margin: -37.3% 45% 0 0;
+  margin: -38.5% 45% 0 0;
   padding: 6px;
   background-color: rgb(11, 178, 255);
   position: relative;
