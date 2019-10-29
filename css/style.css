@@ -164,8 +164,7 @@ a:active {
 .post-inmersiveA {
   width: 373px;
   height: 160px;
-  margin: 0,
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .inmersive-media {
   height: 100%;
