@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Syncs</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="./img/sync.png">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="./css/style.css">
+  <%- include ('partials/head.html'); %>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
   <header>
@@ -17,54 +14,52 @@
     </div>
   </header>
   <div>
-    <!-- <h2 class="destacado">Destacado</h2> -->
   </div>
   <section class="hero">
     <figure class="circle">
       <div class="circle-img">
         <div class="relevant-container">
-          <img class="container-img" src="./img/panel-104131245-image-dda809dd9104f360-320.png" alt="">
+          <img class="container-img" src="/img/home/media/panel-104131245-image-dda809dd9104f360-320.png" alt="">
         </div>
       </div>
     </figure>
     <figure class="circle">
       <div class="cir-img">
-        <img class="container-img" src="./img/coding_php_code_html_programming_web_java_script_editor_website_development_css_build_program_flat_design_icon-256.png" alt="">
+        <img class="container-img" src="/img/home/media/coding_php_code_html_programming_web_java_script_editor_website_development_css_build_program_flat_design_icon-256.png" alt="">
       </div>
     </figure>
     <figure class="circle">
       <div class="cir-img">
-        <img class="container-img" src="./img/icon-startup-new.png" alt="">
+        <img class="container-img" src="/img/home/media/icon-startup-new.png" alt="">
       </div>
     </figure>
     <figure class="circle">
       <div class="cir-img">
-        <img class="container-img" src="./img/Reddit-Logo.png" alt="">
+        <img class="container-img" src="/img/home/media/Reddit-Logo.png" alt="">
       </div>
     </figure>
   </section>
   <section class="carrusel">
     <div class="carousel">
-      <img src="./img/bit.jpg" alt="Image 1" />
-      <img src="./img/twitch.jpg" alt="Image 2" />
-      <img src="./img/redhat.jpg" alt="Image 3" />
-      <img src="./img/uber.jpg" alt="Image 4" />
-      <img src="./img/slack1.jpg" alt="Image 5" />    
+      <img src="/img/home/carrousel/bit.jpg" alt="Image 1" />
+      <img src="/img/home/carrousel/twitch.jpg" alt="Image 2" />
+      <img src="/img/home/carrousel/redhat.jpg" alt="Image 3" />
+      <img src="/img/home/carrousel/uber.jpg" alt="Image 4" />
+      <img src="/img/home/carousel/slack1.jpg" alt="Image 5" />    
     </div>
   </section>
   <div>
-    <!-- <h3 class="themes">Post</h2> -->
   </div>
   <hr class="first">
   <section class="theme">
     <div class="post">
       <figure class="post-block">
         <div class="post-img">
-          <img class="post-media" src="./img/youtube-music-1.jpg" alt="">
+          <img class="post-media" src="/img/article/1/youtube-music.jpg" alt="">
         </div>
       </figure>
       <div class="post-text">
-        <a href="./article/test.html">
+        <a href="/article">
           <p class="post-resume">Contenido que es relevante</p>
         </a>
         <p class="post-description">La nueva era en inteligencia artificial</p>
@@ -100,7 +95,7 @@
     </div>
     <hr>
     <div class="post-inmersiveA">
-      <img class="inmersive-media" src="./img/ps_redhat_11.jpg" alt="">
+      <img class="inmersive-media" src="/img/home/article/special/ps_redhat_11.jpg" alt="">
       <div class="imersive-text">
         <a href="./article/article.html">
           <p class="inmersive-resume">El nuevo RedHat</p>
@@ -153,14 +148,7 @@
     </div>
     <hr>
   </section>
-  <footer class="footer">
-    <div class="container">
-      <p>Working in web</p>
-    </div>
-    <div>
-      <p>Desing by Specter</p>
-    </div>
-  </footer>
+  <%- include ('partials/footer.html'); %>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./scripts/carrusel.js"></script>
 </body>
 </html>
